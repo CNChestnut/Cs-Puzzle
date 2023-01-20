@@ -1,8 +1,11 @@
 
+#include <fstream>
 #include "SimpleIni.h"
 
 #ifndef _MAIN_H
-#define _NAME_H
+#define _MAIN_H
+
+using namespace std;
 
 struct program_info
 {
@@ -15,7 +18,8 @@ struct program_info
 
 program_info program_info_loaded;
 CSimpleIniA ini;
-char* p;//test
+ifstream fin;
+ofstream fout;
 
 void init_program()
 {

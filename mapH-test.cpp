@@ -1,8 +1,10 @@
 
 #include <iostream>
 #include "map.h"
+#include "main.h"
 
-int main()
-{
-	std::cout<<load_map()<<endl<<map_base_loaded[0][0];
+int main() {
+	init_program();
+	load_map();
+	in_Game();
 }
