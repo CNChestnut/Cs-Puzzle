@@ -1,6 +1,6 @@
 
 #include <iostream>
-#include "map.h"
+#include "ingame.h"
 #include "main.h"
 
 int main() {
