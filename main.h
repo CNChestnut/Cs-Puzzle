@@ -1,6 +1,9 @@
 
 #include "SimpleIni.h"
 
+#ifndef _MAIN_H
+#define _NAME_H
+
 struct program_info
 {
 	char* program_name;
@@ -32,4 +35,7 @@ void init_program()
 	        program_info_loaded.program_version,
 	        program_info_loaded.auth_name);
 	system(command_ChangeTitle);
+	ini.SaveFile("../info.ini");
 }
+
+#endif

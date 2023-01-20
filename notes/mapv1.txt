@@ -1,0 +1,16 @@
+info.cpmap
+----
+[about]
+name = Test map
+time = Nulltime
+version = ver 1.0
+auth = Offical
+[map]
+width = 11
+height = 11
+[start]
+x = 1
+y = 1
+[end]
+x = 10
+y 10
