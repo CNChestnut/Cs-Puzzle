@@ -1,9 +1,14 @@
-#include "main.h"
-#include "commandui.h"
+
+#include <iostream>
+#include <string.h>
+#include "../SimpleIni.h"
+#include "../main.h"
+#include "console.h"
+
+using namespace std;
 
 int main()
 {
-    
-	
-    return 0;
+	init_program();
+	menu();
 }
