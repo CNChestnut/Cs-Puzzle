@@ -1,13 +1,16 @@
 
 #include <iostream>
 #include <string.h>
-#include "../main.h"
-#include "console.h"
+#include <graphics.h>
+#include "main.h"
 
 using namespace std;
 
-int main()
-{
+int main() {
 	init_program();
+	initgraph(800,600);
+	setcaption(program_info_loaded.program_name);
 	menu();
+	getch();
+	closegraph();
 }
